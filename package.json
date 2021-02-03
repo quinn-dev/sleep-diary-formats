@@ -1,0 +1,29 @@
+{
+  "name": "sleep-diary-formats",
+  "version": "0.1.0",
+  "main": "src/DiaryBase.js",
+  "repository": "git@github.com:andrew-sayers/sleep-diary-formats.git",
+  "author": "andrew-sayers <andrew-github.com@pileofstuff.org>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "build:all": "gulp all",
+    "build:docs": "gulp docs",
+    "build:tests": "gulp buildTests",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "timezonecomplete": "^5.11.2",
+    "xmldom": "^0.4.0"
+  },
+  "devDependencies": {
+    "google-closure-compiler": "^20210106.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-git": "^2.10.1",
+    "gulp-jasmine": "^4.0.0",
+    "gulp-jsdoc3": "^3.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
